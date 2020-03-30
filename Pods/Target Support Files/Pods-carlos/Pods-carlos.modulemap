@@ -1,0 +1,6 @@
+framework module Pods_carlos {
+  umbrella header "Pods-carlos-umbrella.h"
+
+  export *
+  module * { export * }
+}

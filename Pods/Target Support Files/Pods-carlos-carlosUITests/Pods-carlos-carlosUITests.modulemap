@@ -1,0 +1,6 @@
+framework module Pods_carlos_carlosUITests {
+  umbrella header "Pods-carlos-carlosUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
