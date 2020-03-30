@@ -34,10 +34,15 @@ class LockScreenVC: BaseVC {
     }
     
     @IBAction func DoneButtonAction(_ sender: UIButton) {
-        let vc = storyboard?.instantiateViewController(withIdentifier: "ViewImageVC") as! ViewImageVC
-        self.navigationController?.pushViewController(vc, animated: true)
-        
 
+        if comefrom == "Enter Pin"{
+        
+                    let vc = storyboard?.instantiateViewController(withIdentifier: "ViewImageVC") as! ViewImageVC
+                    self.navigationController?.pushViewController(vc, animated: true)
+            
+        }else {
+          self.navigationController?.popViewController(animated: true)
+        }
         
     }
     func navigationToBack(){

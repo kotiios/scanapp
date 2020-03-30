@@ -143,7 +143,7 @@
                                         <rect key="frame" x="0.0" y="477" width="375" height="190"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRW-oo-gaj">
-                                                <rect key="frame" x="111.5" y="-19" width="152" height="152"/>
+                                                <rect key="frame" x="149.5" y="19" width="76" height="76"/>
                                                 <state key="normal" image="click"/>
                                                 <connections>
                                                     <action selector="CaptureActionButton:" destination="ljx-7k-aQp" eventType="touchUpInside" id="ThI-8t-uAW"/>
@@ -180,7 +180,7 @@
                                                 </constraints>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pqB-MJ-N09">
-                                                <rect key="frame" x="40" y="158" width="295" height="45"/>
+                                                <rect key="frame" x="40" y="120" width="295" height="45"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Laq-xf-biI">
                                                         <rect key="frame" x="0.0" y="0.0" width="147.5" height="45"/>
@@ -736,21 +736,21 @@
                                                 <rect key="frame" x="0.0" y="55" width="375" height="40"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qe-cs-0gv">
-                                                        <rect key="frame" x="0.0" y="0.0" width="71.5" height="40"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="58" height="40"/>
                                                         <state key="normal" image="brightness"/>
                                                         <connections>
                                                             <action selector="BrightnessButtonAction:" destination="nB0-bD-BXH" eventType="touchUpInside" id="3yN-m9-qeH"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ud9-zT-y6P">
-                                                        <rect key="frame" x="71.5" y="0.0" width="61" height="40"/>
+                                                        <rect key="frame" x="58" y="0.0" width="58" height="40"/>
                                                         <state key="normal" image="contrast"/>
                                                         <connections>
                                                             <action selector="ContrastButtonAction:" destination="nB0-bD-BXH" eventType="touchUpInside" id="lFI-Gi-PN0"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lbb" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxq-DL-4rV">
-                                                        <rect key="frame" x="132.5" y="0.0" width="0.0" height="40"/>
+                                                        <rect key="frame" x="116" y="0.0" width="16.5" height="40"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -769,20 +769,20 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofQ-j4-lb9">
-                                                        <rect key="frame" x="242.5" y="0.0" width="11.5" height="40"/>
+                                                        <rect key="frame" x="242.5" y="0.0" width="18.5" height="40"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUJ-ul-VfF">
-                                                        <rect key="frame" x="254" y="0.0" width="71.5" height="40"/>
+                                                        <rect key="frame" x="261" y="0.0" width="58" height="40"/>
                                                         <state key="normal" image="blur"/>
                                                         <connections>
                                                             <action selector="blurButtonAction:" destination="nB0-bD-BXH" eventType="touchUpInside" id="cId-lW-sgM"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GeI-4c-9RN">
-                                                        <rect key="frame" x="325.5" y="0.0" width="49.5" height="40"/>
+                                                        <rect key="frame" x="319" y="0.0" width="56" height="40"/>
                                                         <state key="normal" image="white-black"/>
                                                         <connections>
                                                             <action selector="whiteBlackActionButton:" destination="nB0-bD-BXH" eventType="touchUpInside" id="Tol-fE-k6s"/>
@@ -1499,7 +1499,7 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image3" translatesAutoresizingMaskIntoConstraints="NO" id="yjP-u4-gwd">
-                                <rect key="frame" x="0.0" y="60" width="375" height="323.5"/>
+                                <rect key="frame" x="0.0" y="60" width="375" height="323.50000000000006"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DBf-9f-5L0">
                                 <rect key="frame" x="0.0" y="383.5" width="375" height="120"/>
